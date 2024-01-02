@@ -3,7 +3,13 @@ package main
 import "fmt"
 
 func main() {
-	fmt.Println("Satu adalah ", 1)
-	fmt.Println("Dua adalah ", 2)
-	fmt.Println("Tiga koma lima adalah ", 3.5)
+	var nama string // beri tahu tipe datanya
+	nama = "Ungguh"
+	fmt.Println(nama)
+
+	var name = "Faiza" // langsung isinya
+	fmt.Println(name)
+
+	jeneng := "Rohman" // pakai := namun hanya sekali saja saat pertama untuk setiap variabel
+	fmt.Println(jeneng)
 }
